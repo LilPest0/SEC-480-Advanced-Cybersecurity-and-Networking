@@ -19,3 +19,6 @@ function cloner($originalVM, $snapshotOG, $newVM){
     exit
   }
 }
+
+# cloner -originalVM "vmname" -snapshotOG "base-whatever" -newVM "name-of-new-vm"
+# uncomment above line and fill variables to run
